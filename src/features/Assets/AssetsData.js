@@ -20,6 +20,60 @@ export const data = [
     },
     {
         id:3,
+        title:"twssdfa",
+        quantity:12314,
+        value:21314
+    },
+    {
+        id:13,
+        title:"adferasq",
+        quantity:12314,
+        value:21314
+    },
+    {
+        id:123,
+        title:"afsdaw",
+        quantity:12314,
+        value:21314
+    },
+    {
+        id:323,
+        title:"asdwqe",
+        quantity:12314,
+        value:21314
+    },
+    {
+        id:53,
+        title:"toasdfafu",
+        quantity:12314,
+        value:21314
+    },
+    {
+        id:323,
+        title:"toqweqrafu",
+        quantity:12314,
+        value:21314
+    },
+    {
+        id:3222,
+        title:"adsadwae",
+        quantity:12314,
+        value:21314
+    },
+    {
+        id:3,
+        title:"tofu",
+        quantity:12314,
+        value:21314
+    },
+    {
+        id:3,
+        title:"tofu",
+        quantity:12314,
+        value:21314
+    },
+    {
+        id:3,
         title:"tofu",
         quantity:12314,
         value:21314
