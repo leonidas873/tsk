@@ -1,0 +1,36 @@
+.progressBar{
+    width:100%;
+}
+
+
+
+.progressBar__bar{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius:10px;
+    background-color: #191F2A;
+    
+}
+
+.progressBar__nums{
+    color:#0500FF;
+}
+
+.progressBar__bar-filled{
+    height:6px;
+    width:10%;
+    background-color: #0500FF;
+    border-radius:10px;
+}
+
+.progressBar__first-row{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:10px;
+}
+
+.progressBar__title{
+    color:white;
+    
+}

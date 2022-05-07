@@ -1,0 +1,42 @@
+.carousel{
+    max-width:100%;
+    margin-top:40px;
+}
+
+
+.carousel__header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+    width:100%;
+   margin-bottom:20px;
+}
+
+.carousel__header-left{
+    display:flex;
+    gap:10px;
+}
+
+.carousel__header-add{
+    display:flex;
+    align-items: center;
+    gap:5px;
+}
+
+.carousel__header-switcher{
+    display:flex;
+    gap:5px;
+}
+
+.carousel__search input{
+outline:none;
+border:1px solid #ffffff10;
+background-color: transparent;
+padding:10px 5px;
+color:white;
+}
+
+.singleAsset{
+    color:white;
+}

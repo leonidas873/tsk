@@ -1,0 +1,98 @@
+.walletAddr__wrapper{
+    margin-top:40px;
+}
+
+.walletAddr{
+    display:flex;
+    align-items: center;   
+    justify-content: flex-start;
+    gap:20px;
+    
+}
+
+.walletAddr__addr{
+    color:white;
+}
+
+.walletAddr__copy-icon{
+    color:#0500FF;
+    cursor:pointer;
+}
+
+.walletAddr__qr-icon svg{
+    color:white;
+    cursor:pointer;
+
+}
+
+/* modal */
+.walletAddr__modal{
+    background-color: #0A0F18!important;
+    padding:20px;
+}
+
+.wallet-modal__header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    color:white;
+    margin-bottom:20px;
+}
+
+.wallet-modal__header h4{
+
+    padding:0;
+    margin:0;
+
+}
+
+
+.wallet-modal__header svg{
+    font-size:30px;
+    color:white;
+    cursor:pointer;
+}
+
+.wallet-modal__body{
+display:flex;
+flex-direction:column;
+align-items: center;
+}
+
+
+.wallet-modal__qr{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+
+.wallet-modal__qr img{
+    border:20px solid #ffffff42;
+    border-radius: 4px;
+}
+.wallet-modal__text{
+    color:white;
+    width:100%;
+    text-align: left;
+}
+
+.wallet-modal__walletAddr{
+    
+    display:flex; 
+    align-items: center;
+    gap:15px;
+    background-color: #05080D;
+    color:white;
+    padding:5px 10px;
+    border-radius:5px;
+}
+
+.wallet-modal__btn{
+    border:none;
+    outline:none;
+    background-color: transparent;
+    color:#0500FF;
+    margin:10px;
+}

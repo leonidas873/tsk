@@ -1,0 +1,12 @@
+{
+    "nav": {
+        "1": "trade",
+        "2": "earn",
+        "3": "Win",
+        "4": "NFT",
+        "5": "more"
+    },
+    "headerBtn": {
+        "1": "connect wallet"
+    }
+}

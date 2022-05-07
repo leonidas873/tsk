@@ -1,0 +1,93 @@
+.header{
+    background: #000F2E;
+    display:flex;
+    box-sizing:border-box;
+    padding:10px 50px;
+    gap:15px;
+}
+
+.header__nav{
+
+    flex:1;
+
+}
+
+.header__nav nav{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    height:100%;
+    padding-left:60px;
+    gap:40px;
+    
+}
+
+.header__nav nav a {
+    color:#969BA6;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size:16px;
+    font-weight:400;
+}
+
+.header__balance{
+    display:flex;
+    align-items: center;
+    color:white;
+    gap:10px;
+}
+
+.header__settings{
+    display:flex;
+    align-items:center;
+}
+
+.header__conncetWallet-btn{
+    padding:10px 20px;
+    color:white;
+    text-transform: capitalize;
+    background-color: #FF7152;
+    cursor:pointer;
+}
+
+/*  languages */
+
+.lan-select{
+    color:white;
+    position:relative; 
+    display:flex;
+    align-items:center;
+    cursor:pointer;
+}
+
+.lan-select__active{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    text-transform: uppercase;
+}
+.lan-select__options{
+    color:white;
+    background-color: #000F2E;
+    position:absolute;
+    text-transform: uppercase;
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+    padding:10px;
+    align-items: flex-start;
+    top:46px;
+    z-index:1231241;
+}
+
+.lan-select__option{
+
+    width:100%;
+    text-align:left;
+}
+
+.lan-select__option:hover{
+    color:#969BA6;
+}
+
+
